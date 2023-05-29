@@ -19,45 +19,84 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</head>
+
+  </head>
 <body>
     <!-- header section starts  -->
 
 <header>
-        
-
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <a class="navbar-brand" herf="/">
-        <img class="img-fluid" src="images/e-learning.svg" alt="logo" style="width: 100px">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-            <li class="auth-btn mx-2">
-                <a herf="#"class="nav-link" style="font-size: small;" >About Us</a></li>
-            <li class="auth-btn mx-2">
-                <a class="nav-link" style="font-size: small;" herf="/courses/">Courses</a></li>
-            <li class="auth-btn mx-2">
-                <a class="nav-link" style="font-size: small;" herf="/graduates/">graduates</a></li>
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search course..." >
-                <button  class="" type="submit">Search</button>
-            </form>
-            <li class="auth-btn mx-2">
-                <a class="nav-link" style="font-size: small;" herf="/user_login/">Log In</a></li>
-            <li class="auth-btn mx-2">
-                <a class="nav-link" style="font-size: small;" herf="/user/registration">Registration</a></li>
-        </ul>
-        
-      </div>
-        
-    </nav>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a class="navbar-brand" herf="/">
+    <img class="img-fluid" src="images/e-learning.svg" alt="logo" style="width: 150px">
+</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="auth-btn mx-2">
+        <a
+          href="/about-us/"
+          class="
+            auth-btn-link
+            d-block
+            text-white
+            bold  active 
+          "
+          style="font-size: medium;"
+          >about us</a
+        >
+      </li>
+      <li class="auth-btn mx-2">
+        <a
+          href="/courses/"
+          class="
+            auth-btn-link
+            d-block
+            text-white
+            bold
+            
+          "
+          style="font-size: medium;"
+          >courses</a
+        >
+      </li>
+      <li class="auth-btn mx-2">
+        <a
+          href="/user/graduate_list/"
+          class="auth-btn-link d-block text-white bold
+            
+          "
+          style="font-size: medium;"
+          >graduates</a
+        >
+      </li>
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search course..." >
+            <button  class="btn btn-primary" type="submit">Search</button>
+        </form>
+        <li class="auth-btn mx-2">
+          <a
+            href="login.html"
+            class="auth-btn-link d-block text-white bold"
+            style="font-size: medium;"
+            >login</a
+          >
+        </li>
+        <li class="auth-btn mx-3">
+          <a
+            href="/user/register/"
+            class="auth-btn-link d-block text-white bold"
+            style="font-size: medium;"
+            >Register</a
+          >
+        </li>
+    </ul>
     
+  </div>
     
-
-
+</nav>
+        
 </header>
 
 <!-- header section ends -->
@@ -68,19 +107,14 @@
 <!-- home section starts  -->
 
 <section class="home" id="home">
-
-    <div class="content">
-        <img class="img-fluid"src="images/pic.jpg" alt="'picture">
-        <h3>politics matters</h3>
-        <h2 class="title text-justify p-4 text-dark ">
-            পলিটিক্স ম্যাটার্স এ আপনাকে স্বাগতম। পলিটিক্স ম্যাটার্স একটি অনলাইন
-            প্রশিক্ষণ প্ল্যাটফরম। এখানে কোর্সগুলো করে আপনি আপনার রাজনৈতিক জ্ঞান
-            ও দক্ষতা বাড়াতে পারবেন। নীচের মেনুগুলো থেকে এই প্ল্যাটফরম সম্পর্কে
-            বিস্তারিত জানা যাবে।
-        </h2>
-        
-    </div>
-
+  <img class="img-fluid"src="images/pic.jpg" alt="'picture">
+  <h1 class="font-weight-bold">politics matters</h1>
+  <h3 class="title text-justify p-4 text-dark text-fluid">
+      পলিটিক্স ম্যাটার্স এ আপনাকে স্বাগতম। পলিটিক্স ম্যাটার্স একটি অনলাইন
+      প্রশিক্ষণ প্ল্যাটফরম। এখানে কোর্সগুলো করে আপনি আপনার রাজনৈতিক জ্ঞান
+      ও দক্ষতা বাড়াতে পারবেন। নীচের মেনুগুলো থেকে এই প্ল্যাটফরম সম্পর্কে
+      বিস্তারিত জানা যাবে।
+  </h3>
 </section>
 
 
@@ -348,51 +382,7 @@
     </div>
   </div>
 
-  <section id="user_login" class="vh-100">
-    <div class="container-fluid h-custom">
-      <div class="row d-flex justify-content-center align-items-center h-100">
-        <div class="col-md-9 col-lg-6 col-xl-5">
-          <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
-            class="img-fluid" alt="Sample image">
-        </div>
-        <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
-          <form>
-
-            <div class="form-outline mb-4">
-              <input type="email" id="form3Example3" class="form-control form-control-lg"
-                placeholder="Enter email address" />
-              <label class="form-label" for="form3Example3">Email address</label>
-            </div>
-
-            <div class="form-outline mb-3">
-              <input type="password" id="form3Example4" class="form-control form-control-lg"
-                placeholder="Enter password" />
-              <label class="form-label" for="form3Example4">Password</label>
-            </div>
   
-            <div class="d-flex justify-content-between align-items-center">
-              <div class="form-check mb-0">
-                <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
-                <label class="form-check-label" for="form2Example3">
-                  Remember me
-                </label>
-              </div>
-              <a href="#!" class="text-body">Forgot password?</a>
-            </div>
-  
-            <div class="text-center text-lg-start mt-4 pt-2">
-              <button type="button" class="btn btn-primary btn-lg"
-                style="padding-left: 2.0rem; padding-right: 2.0rem;font-size: small;">Login</button>
-              <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="#!"
-                  class="link-danger">Register</a></p>
-            </div>
-  
-          </form>
-        </div>
-      </div>
-    </div>
-    
-  </section>
 <!-- products section ends -->
 <footer class="bg-dark footer-container-fluid section-padding-y">
     <div class="container">
