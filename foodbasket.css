@@ -48,17 +48,20 @@ section{
 
 
 .heading span{
-    background: greenyellow;
-    color:#fff;
+    background: rgb(56, 162, 188);
+    color:#ffffff;
     display: inline-block;
+    text-shadow: #000000;
     padding:.5rem 3rem;
     clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
 }
-
+.underline{
+    color:#130f40
+}
 .btn{
     margin-top: 1rem;
     display: inline-block;
-    padding:.8rem 3rem;
+    padding:.5rem 2rem;
     font-size: 1.7rem;
     border-radius: .5rem;
     border:.2rem solid var(--black);
